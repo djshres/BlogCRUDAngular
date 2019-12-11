@@ -1,0 +1,16 @@
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\BlogAPI.deps.json
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\BlogAPI.runtimeconfig.json
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\BlogAPI.runtimeconfig.dev.json
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\BlogAPI.dll
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.csprojAssemblyReference.cache
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.RazorAssemblyInfo.cache
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.RazorAssemblyInfo.cs
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.AssemblyInfoInputs.cache
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.AssemblyInfo.cs
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.RazorTargetAssemblyInfo.cache
+D:\Projects\Angular\Blog\BlogAPI\bin\Debug\netcoreapp2.2\BlogAPI.pdb
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.dll
+D:\Projects\Angular\Blog\BlogAPI\obj\Debug\netcoreapp2.2\BlogAPI.pdb
