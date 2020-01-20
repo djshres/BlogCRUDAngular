@@ -13,7 +13,6 @@ namespace BlogAPI.Data
             : base(options)
         {
         }
-
         public DbSet<BlogPost> BlogPost { get; set; }
     }
 }

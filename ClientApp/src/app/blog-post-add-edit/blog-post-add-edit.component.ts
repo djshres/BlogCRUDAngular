@@ -19,6 +19,24 @@ export class BlogPostAddEditComponent implements OnInit {
   existingBlogPost: BlogPost;
 
   constructor(private blogPostService: BlogPostService, private formBuilder: FormBuilder, private avRoute: ActivatedRoute, private router: Router) {
+    // const idParam = 'id';
+    // this.actionType = 'Add';
+    // this.formTitle = 'title';
+    // this.formBody = 'body';
+    // if (this.avRoute.snapshot.params[idParam]) {
+    //   this.postId = this.avRoute.snapshot.params[idParam];
+    // }
+
+    // this.form = this.formBuilder.group(
+    //   {
+    //     postId: 0,
+    //     title: ['', [Validators.required]],
+    //     body: ['', [Validators.required]],
+    //   }
+    // )
+  }
+
+  ngOnInit() {
     const idParam = 'id';
     this.actionType = 'Add';
     this.formTitle = 'title';
@@ -26,7 +44,7 @@ export class BlogPostAddEditComponent implements OnInit {
     if (this.avRoute.snapshot.params[idParam]) {
       this.postId = this.avRoute.snapshot.params[idParam];
     }
-
+ 
     this.form = this.formBuilder.group(
       {
         postId: 0,
@@ -34,9 +52,7 @@ export class BlogPostAddEditComponent implements OnInit {
         body: ['', [Validators.required]],
       }
     )
-  }
 
-  ngOnInit() {
     if (this.postId > 0) {
       this.actionType = 'Edit';
       this.blogPostService.getBlogPost(this.postId)
@@ -63,7 +79,8 @@ export class BlogPostAddEditComponent implements OnInit {
 
       this.blogPostService.saveBlogPost(blogPost)
         .subscribe((data) => {
-          this.router.navigate(['/blogpost', data.postId]);
+          // this.router.navigate(['/blogpost', data.postId]);
+          this.router.navigate(['']);
         });
     }
 

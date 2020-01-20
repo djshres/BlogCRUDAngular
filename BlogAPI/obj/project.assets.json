@@ -13003,7 +13003,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.0.5/nuget": {},
+        "http://192.168.2.9:13001/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

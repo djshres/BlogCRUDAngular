@@ -130,7 +130,6 @@ namespace BlogAPI.Controllers
                     throw;
                 }
             }
-
             return NoContent();
         }
 

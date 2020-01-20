@@ -16,7 +16,7 @@ import { BlogPostService } from './Services/blog-post.service';
     AppComponent,
     BlogPostsComponent,
     BlogPostComponent,
-    BlogPostAddEditComponent
+    BlogPostAddEditComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,4 +4,5 @@ export class BlogPost {
     title: string;
     body: string;
     dt: Date;
-  }
+  } 
+  
